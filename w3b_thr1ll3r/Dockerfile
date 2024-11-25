@@ -27,7 +27,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # The start.sh script starts a socat listener on port 5555, that connects to the
 # python script.
 EXPOSE 5000
-# PUBLISH 5000
+# PUBLISH 5000 AS port
 
 # CMD ["/app/start.sh"]
 CMD ["python3", "/app/app.py"]

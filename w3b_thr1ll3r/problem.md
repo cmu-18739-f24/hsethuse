@@ -1,6 +1,6 @@
 # Reversing Python
 
-- Namespace: w3bthr1ll3r/ctf
+- Namespace: picoctf/18739f24
 - ID: w3b_thr1ll3r
 - Type: custom
 - Category: Web Exploitation
@@ -15,6 +15,11 @@ designed to guide players through a series of hints embedded within the web
 pages, ultimately leading them to a "hidden search" endpoint. Players need to 
 utilize various clues to find hidden paths and discover encrypted endpoints, 
 unlocking further levels.
+
+
+## Details
+
+The website is running {{link_as("port", "/", "here")}}
 
 
 ## Hints
